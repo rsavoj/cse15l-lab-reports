@@ -3,6 +3,8 @@
 ![Image](DownloadingVS.png)
 2. The application interface should resemble the one below 
 ![Image](openingVS.png)
-3. 
+3. Go to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) to access course specific account. To activate the account change the password and wait ~15 minutes.
+4. Open a new terminal in VS code using + ` or opening a new terminal from the menu 
+5. Enter ssh cs15lwi22zz@ieng6.ucsd.edu replacing the zz with your course specific ID. A password will be prompted. Enter in the one made when the account was activated. When logged in ther terminal should look like the one below.
 
 ![Image](ScreenShotToAddLabSession.png)
