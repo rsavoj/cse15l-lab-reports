@@ -12,6 +12,6 @@ First *index.md* file made at 3:14 pm!
 
 ## Link test To other pages
 ---
-[Lab Report same window](lab-report-1-week-2)
+[Lab Report lab-report-1-week-2 format](lab-report-1-week-2)
 
-[Lab Report external window](https://rsavoj.github.io/cse15l-lab-reports/lab-report-1-week-2)
+[Lab Report link using https: format](https://rsavoj.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
