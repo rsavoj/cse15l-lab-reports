@@ -19,6 +19,7 @@
 ![Image](lslat.png)
 * along with additional commands 
 
-7.
+7. Leave the server by typing exit into the command line or pushing Ctrl-d
+8. You can use the command scp <fileName> cs15lwi22zz@ieng6.ucsd.edu:~/ (using personal account). To add a file to t.
 
 ![Image](ScreenShotToAddLabSession.png)
