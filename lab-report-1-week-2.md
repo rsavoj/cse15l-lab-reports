@@ -13,6 +13,8 @@
 3. Enter ssh cs15lwi22zz@ieng6.ucsd.edu replacing the zz with your course specific ID. A password will be prompted. Enter in the one made when the account was activated. When logged in ther terminal should look like the one below.
 ![Image](login.png)
 > **Example Input** $ ssh cs15lwi22ahd@ieng6.ucsd.edu
+
+
 ## Trying Some Commands
  Run Some Commands 
 1. cd~ 
@@ -36,11 +38,21 @@ ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc, cp /home/linux/ieng6/cs15lwi22/publ
 
 2. Log into ssh account and use the command ls to check that the file was uploaded. If it was uploaded you can use java and javac commands.
  ![Image](AddFile2.png)
- 3. One can create a key to avoid using a passcode every time they log into the ieng6 account. The ssh-keygen command creates a public key stored on the server and a private key stored on the client. Use the command ssh-keygen to generate a key. 
+
+ ## Setting an SSH Key
+ 1. One can create a key to avoid using a passcode every time they log into the ieng6 account. The ssh-keygen command creates a public key stored on the server and a private key stored on the client. Use the command ssh-keygen to generate a key. 
 > **Example Input** ssh-keygen
-4. Copy the public key to the account directory on the server by loging into the ieng6 account and entering the command  mkdir .ssh.
+2. Copy the public key to the account directory on the server by loging into the ieng6 account and entering the command  mkdir .ssh.
 > **Example Input** mkdir .ssh
 
-5. image of logging in without a passcode using a key
+3. image of logging in without a passcode using a key
 ![Image](ScreenShotToAddLabSession.png)
+
+## Optimizing Remote Running
+1. There are many ways to simplify the commands used for running programms on servers.
+2. The command ssh cs15lwi22zz@ieng6.ucsd.edu "command". Will log into the direcory run the command in quotations and exit the directory. This command optimizes remote runnig by combing three lines of code into 1. 
+ ![image](lsOptim.png)
+ 3. Semicolons can be used to run multiple commands at once. If quotations are placed around the command it will run both commands together.
+ ![Image](image1.png)
+ 4. Use the command scp my-file1.txt my-file2.txt cs15lwi22zz@ieng6.ucsd.edu:~/, can be used to copy two files to the directory at once.
 
