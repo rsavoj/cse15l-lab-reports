@@ -7,16 +7,16 @@
 
 ## Remotely Connecting
 
-1. Go to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) to access course specific account. To activate the account change the password and wait ~15 minutes.
-2. Open a new terminal in VS code using + ` or opening a new terminal from the menu 
+1.  I went to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) to access my course specific account. To activate the account I changed the password and waited ~15 minutes.
+2. To Open a new terminal in VS code I used + ` or opening a new terminal from the menu 
 
-3. Enter ssh cs15lwi22zz@ieng6.ucsd.edu replacing the zz with your course specific ID. A password will be prompted. Enter in the one made when the account was activated. When logged in ther terminal should look like the one below.
-![Image](login.png)
+3. I entered ssh cs15lwi22ahd@ieng6.ucsd.edu, my course specific account. A password was prompted. I Entered in the one I made when my account was activated. When I logged in there terminal should looked like the one below.
 > **Example Input** $ ssh cs15lwi22ahd@ieng6.ucsd.edu
+![Image](login2.png)
 
 
 ## Trying Some Commands
- Run Some Commands 
+Some of the commands I ran on the server: 
 1. cd~ 
 ![Image](cd~.png)
 
@@ -28,21 +28,26 @@
 * along with additional commands  such as cd,
 ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc, cp /home/linux/ieng6/cs15lwi22/public/hello.txt, ~/cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 
- Leave the server by typing exit into the command line or pushing Ctrl-d
+ To Leave the server I typed exit into the command line.
 
 ## Moving Files with scp
 
-1. You can use the command scp "fileName" cs15lwi22zz@ieng6.ucsd.edu:~/ To add a file to your home directory on the server. Note you will be asked for a password if you have not implemented a key.
+1. I  used the command scp fileName cs15lwi22ahd@ieng6.ucsd.edu:~/ to add a file to my home directory on the server.
  
 > **Example Input** WhereAmI.java cs15lwi22ahd@ieng.ucsd.edu:~/
 
-2. Log into ssh account and use the command ls to check that the file was uploaded. If it was uploaded you can use java and javac commands.
- ![Image](AddFile2.png)
+2. I Logged into my ssh account and use the command ls to check that the file was uploaded. The file was uploaded I tested its function using the java and javac commands.
+ ![Image](fileAdded.png)
+ Example outputs of the function whereAmI.java on the clients computer vs. the servers computer.
+ ![Image](ClivSer.png)
 
+ 
+ 
+ 
  ## Setting an SSH Key
- 1. One can create a key to avoid using a passcode every time they log into the ieng6 account. The ssh-keygen command creates a public key stored on the server and a private key stored on the client. Use the command ssh-keygen to generate a key. 
+ 1. I created a key to avoid using a passcode every time I logged into my ieng6 account. The ssh-keygen command creates a public key stored on the server and a private key stored on the client. I used the command ssh-keygen to generate a key. 
 > **Example Input** ssh-keygen
-2. Copy the public key to the account directory on the server by loging into the ieng6 account and entering the command  mkdir .ssh.
+2. I copyed the public key to the account directory on the server by loging into my ieng6 account and entering the command  mkdir .ssh.
 > **Example Input** mkdir .ssh
 
 3. image of logging in without a passcode using a key
