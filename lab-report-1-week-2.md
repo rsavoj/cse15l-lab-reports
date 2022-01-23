@@ -71,17 +71,21 @@ Some of the commands I ran on the server:
 2. The command ssh cs15lwi22zz@ieng6.ucsd.edu "command". Will log into the direcory run the command in quotations and exit the directory. This command optimizes remote runnig by combing three lines of code into 1. 
  ![image](lsOptim.png)
  For the example in the image above 
- > **Without ""**: Timer: 13 seconds, Keystrokes: 43
+ 
+> **Without ""**: Timer: 13 seconds, Keystrokes: 43
 
 > **With ""** Timer: 9 seconds, Keystrokes 41
 
  3. Semicolons can be used to run multiple commands at once. If quotations are placed around the command it will run both commands together.
  ![Image](image1.png)
   For the example in the image above 
+ 
  > **Without ;**: Timer: 20 seconds, Keystrokes: 98
 
 > **With ;** Timer: 15 seconds, Keystrokes 68
+
  4. Use the command `scp my-file1.txt my-file2.txt cs15lwi22zz@ieng6.ucsd.edu:~/`, can be used to copy two files to the directory at once.
+
  > **Without 2 files**: Timer: 19 seconds, Keystrokes: 96
 
 > **With 2 files** Timer: 17 seconds, Keystrokes 61
