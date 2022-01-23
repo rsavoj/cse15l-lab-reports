@@ -11,22 +11,23 @@
 2. To Open a new terminal in VS code I used + ` or opening a new terminal from the menu 
 
 3. I entered ssh cs15lwi22ahd@ieng6.ucsd.edu, my course specific account. A password was prompted. I Entered in the one I made when my account was activated. When I logged in there terminal should looked like the one below.
-> **Example Input** $ ssh cs15lwi22ahd@ieng6.ucsd.edu
+> **Example Input** $ `ssh cs15lwi22ahd@ieng6.ucsd.edu`
+
 ![Image](login2.png)
 
 
 ## Trying Some Commands
 Some of the commands I ran on the server: 
-1. cd~ 
+1. `cd~` 
 ![Image](cd~.png)
 
-2. ls -a
+2. `ls -a`
 ![Image](lsa.png)
-3. ls -lat 
+3. `ls -lat `
 ![Image](lslat.png)
 
-* along with additional commands  such as cd,
-ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc, cp /home/linux/ieng6/cs15lwi22/public/hello.txt, ~/cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+* along with additional commands  such as `cd`,
+`ls`, `/home/linux/ieng6/cs15lwi22/cs15lwi22abc`, `cp /home/linux/ieng6/cs15lwi22/public/hello.txt`, `~/cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
  To Leave the server I typed exit into the command line.
 
@@ -34,7 +35,7 @@ ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc, cp /home/linux/ieng6/cs15lwi22/publ
 
 1. I  used the command scp fileName cs15lwi22ahd@ieng6.ucsd.edu:~/ to add a file to my home directory on the server.
  
-> **Example Input** WhereAmI.java cs15lwi22ahd@ieng.ucsd.edu:~/
+> **Example Input** `scp WhereAmI.java cs15lwi22ahd@ieng.ucsd.edu:~/`
 
 2. I Logged into my ssh account and use the command ls to check that the file was uploaded. The file was uploaded I tested its function using the java and javac commands.
  ![Image](fileAdded.png)
@@ -46,9 +47,9 @@ ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc, cp /home/linux/ieng6/cs15lwi22/publ
  
  ## Setting an SSH Key
  1. I created a key to avoid using a passcode every time I logged into my ieng6 account. The ssh-keygen command creates a public key stored on the server and a private key stored on the client. I used the command ssh-keygen to generate a key. 
-> **Example Input** ssh-keygen
+> **Example Input** `ssh-keygen`
 2. I copyed the public key to the account directory on the server by loging into my ieng6 account and entering the command  mkdir .ssh.
-> **Example Input** mkdir .ssh
+> **Example Input** `mkdir .ssh`
 
 3. image of logging in without a passcode using a key
 ![Image](ScreenShotToAddLabSession.png)
