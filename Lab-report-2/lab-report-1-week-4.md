@@ -7,7 +7,7 @@
  
  2. Link to the failure inducing test file 
  
- [File that caused image Error](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-2/testfile2.md)
+ [File that caused image Error](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-2/testfile2.html)
  
  3. Symptom of failure:  Images should not be included in the markdownParse() list of links
  ![image](Change1_Symptom.png)
