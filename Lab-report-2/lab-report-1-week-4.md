@@ -26,7 +26,7 @@
  3. Symptom of failure:  The input () caused an index out of bounds error.
   ![image](Change2_Symptom.png)
 
- 4. Relationship between the bug and the symptom:
+ 4. Relationship between the bug and the symptom: The symptom was caused because there was a bug in the code. When there where no [] after (). The code would try to perform the substring operation using the index 0 and index -1: `markdown.substring(0,-1)`. You cannot create a substring starting at 0 and ending at -1. This line produces the symptom of an `IndexOutOfBoundsError`. To fix this we made sure the line was not called unless the index of `openParen` and `closedParen` where greater than 0.
 
   ## Code Change 3: Extra Spaces
  
@@ -40,5 +40,5 @@
  3. Symptom of failure:  The input () caused an index out of bounds error.
   ![image](Change3_Symptom.png)
 
- 4. Relationship between the bug and the symptom:
+ 4. Relationship between the bug and the symptom: The code calls `charAt(nextOpenBraket-1)`. This produces a bug because nextOpenBracket can be negative. Calling `charAt(negative)` produces the symptom of an index out of bounds error. To fix this code we can add an if statment to check the value of nextOpenBraket and nextClosedBracket.
  
