@@ -12,7 +12,7 @@
  3. Symptom of failure:  Images should not be included in the markdownParse() list of links
  ![image](Change1_Symptom.png)
 
- 4. Relationship between the bug and the symptom: The markdownParse() code identifies links using brackets and parenthesis. Images also use brackets and parenthesis for formating in markdown. If we use the original markdownParse() code it will read the image as a link. The symptom of this bug is that the image is included in the list of links. To fix this bug we added a line of code checking if the image had a ! before it. If this was the case then the code would skip over the image and not add it to the list of links.
+ 4. Relationship between the bug and the symptom: The `markdownParse()` code identifies links using brackets and parenthesis. Images also use brackets and parenthesis for formating in markdown. If we use the original `markdownParse()` code it will read the image as a link. The symptom of this bug is that the image is included in the list of links. To fix this bug we added a line of code checking if the image had a `!` before it. If this was the case then the code would skip over the image and not add it to the list of links.
 
 ## Code Change 2: Only Brackets 
  
