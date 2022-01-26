@@ -17,28 +17,28 @@
  ## Code Change 2: Only Brackets 
  
  1. Github Code Change 
- ![Image]()
+ ![Image](Change2_GithubCodeChange.png)
 
  2. Link to failure including test file 
 
 [File that caused image Error](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-2/testfile3.html)
 
  3. Symptom of failure:  The input () caused an index out of bounds error.
-  ![image](Change1_Symptom.png)
+  ![image](Change2_Symptom.png)
 
  4. Relationship between the bug and the symptom:
 
   ## Code Change 3: Extra Spaces
  
  1. Github Code Change 
- ![Image]()
+ ![Image](Change3_GithubCodeChange.png)
 
  2. Link to failure including test file 
 
 [File that caused image Error](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-2/testfile4.html)
 
  3. Symptom of failure:  The input () caused an index out of bounds error.
-  ![image](Change1_Symptom.png)
+  ![image](Change3_Symptom.png)
 
  4. Relationship between the bug and the symptom:
  
