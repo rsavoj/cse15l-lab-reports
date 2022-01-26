@@ -31,7 +31,7 @@
 ## Code Change 3: Extra Spaces
  
  1. Github Code Change 
- ![Image](Change3_GithubCodeChange.png)
+ ![Image](Change3GithubCodeChange.png)
 
  2. Link to failure including test file 
 
