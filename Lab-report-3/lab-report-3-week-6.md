@@ -1,4 +1,5 @@
 # Lab 3: Streamlining ssh Configuration
+[Index of site link](https://rsavoj.github.io/cse15l-lab-reports/)
 ## ssh/config file
 ![image](SSHConfigFile.png)
 I Streamlined the ssh configuration. To create a config file, I entered the `\.ssh` directory on my local computer. I created the empty config file using the `touch config` command. Then used the `vim config` command to edit the file. I pressed the `i` key to allow insertions. I coppied and pasted the code from Lab report 5. Then changed the email to the correct course specific email. After that I exited the insert mode using esc. The pressed typed `:wq`.
