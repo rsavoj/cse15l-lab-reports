@@ -9,6 +9,6 @@
 [Test file](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-4/Snippet1.md)
 
 Expected Output:
-``[url.com,`google.com, google.com,ucsd.edu] ``
+``[60google.com, google.com,ucsd.edu] ``
 ## Snippet 2
 ## Snippet 3
