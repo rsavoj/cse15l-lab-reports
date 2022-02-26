@@ -25,7 +25,7 @@ JUnit Test Reviewed version of MarkdownParse output:
 [Snippet 2 file](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-4/Snippet2.md)
 
 Expected  Output for getLinks():
-`[a.com, a.com(()), example.com] `
+`[b.com, a.com(()), example.com] `
 
 JUnit Test used on both versions of MarkdownParse
 ![image](SnippetTwoJUnit.png)
