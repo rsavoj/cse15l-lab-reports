@@ -6,7 +6,7 @@
 Test Results 
 ![image](case495.png)
 
-file:[file 495](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-5/495.md)
+[file 495](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-5/495.md)
 
 
 **Expected Output**:
