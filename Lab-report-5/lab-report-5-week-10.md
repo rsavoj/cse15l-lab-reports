@@ -5,25 +5,26 @@
 I stored that data from running the bash script in a files named `resutls.txt` running the command `bash script.sh >results.txt` in each directory with a MarkdownParse.java file. I found the difference in test results in the `results.txt` files using the command `diff markdown-parseRoyas/results.txt markdown-parse/results.txt`
 
 Test Results for Case 495: 
+
 ![image](495.png)
 
-[file 495](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-5/495.md)
+[file 495.md](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-5/495.md)
 
 
 **Expected Output**: `[(foo(and(bar))]`
 
-**Correct Implementation** The correct implementation is the professors `markdownParse.java` file. The remaining closed parenthesis before the brackets should be included in the file
+**Correct Implementation** The correct implementation is the professors `markdownParse.java` file. The `))` should be included in the link.
 
-**Cause of Bug** The code in my implementation of markdown parse tracks the link by searching for the next closed braket. If there is another bracket after the center brackets will not be included in the link.
+**Cause of Bug** The code in my implementation of `markdownParse.java` tracks end of the link by searching for the next `)`. If there is another parenthesis after a  `)`. The code between the parenthesis will not be included in the output of `getLinks()`
 ## Test Two
-**Difference in Test Results** I stored that data from running the bash script in a files named `resutls.txt` running the command `bash script.sh >results.txt` in each directory with a MarkdownParse.java file. I found the difference in test results in the `results.txt` files using the command `diff markdown-parseRoyas/results.txt markdown-parse/results.txt`
+**Difference in Test Results** I stored that data from running the bash script in a files named `resutls.txt` running the command `bash script.sh > results.txt` in each directory with a MarkdownParse.java file. I found the difference in test results in the `results.txt` files using the command `diff markdown-parseRoyas/results.txt markdown-parse/results.txt`
 ,
 
-Test Results for Case 495: 
+Test Results for Case 523: 
 
 ![image](523.png)
 
-[file 495](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-5/523.md)
+[file 523.md](https://rsavoj.github.io/cse15l-lab-reports/Lab-report-5/523.md)
 
 **Expected Output**:`[]`
 
