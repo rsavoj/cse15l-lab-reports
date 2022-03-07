@@ -17,7 +17,7 @@ Test Results for Case 495:
 **Cause of Bug** The code in my implementation of markdown parse tracks the link by searching for the next closed braket. If there is another bracket after the center brackets will not be included in the link.
 ## Test Two
 **Difference in Test Results** I stored that data from running the bash script in a files named `resutls.txt` running the command `bash script.sh >results.txt` in each directory with a MarkdownParse.java file. I found the difference in test results in the `results.txt` files using the command `diff markdown-parseRoyas/results.txt markdown-parse/results.txt`
-
+,
 
 Test Results for Case 495: 
 
